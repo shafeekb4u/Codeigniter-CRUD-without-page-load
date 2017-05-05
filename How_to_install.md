@@ -2,10 +2,10 @@
 
 How to install
 --------------
-1. unzip pack and put it in server public folder
-2. edit baseurl in config file inside crud_application/config folder as base url
-3. import database[crud_db.sql] found inside
-4. configure database.php inside crud_application/config folder
+1. unzip pack and put it in server public folder.
+2. edit baseurl in config file inside crud_application/config folder as base url.
+3. import database[crud_db.sql] found inside.
+4. configure database.php inside crud_application/config folder.
 
 To run 
 
