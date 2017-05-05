@@ -1,0 +1,301 @@
+/* CSS Check Box Reference : http://code.stephenmorley.org/html-and-css/styling-checkboxes-and-radio-buttons/ */
+input[type=checkbox]:not(old),
+input[type=radio   ]:not(old),
+.mycheckradio{
+  width     : 2em;
+  margin    : 0;
+  padding   : 0;
+  font-size : 1em;
+  opacity   : 0;
+  display: none;
+}
+
+input[type=checkbox]:not(old) + label,
+input[type=radio   ]:not(old) + label{
+  display      : inline-block;
+  padding-left: 0px;
+  /*margin-left  : -2em;*/
+  line-height  : 2em;
+}
+
+input[type=checkbox]:not(old) + label > span,
+input[type=radio   ]:not(old) + label > span{
+  display          : inline-block;
+  width            : 1.25em;
+  height           : 1.25em;
+  margin           : 0.25em 0.5em 0.25em 0em;
+  border           : 0.0625em solid rgb(192,192,192);
+  border-radius    : 0em;
+  background       : rgb(224,224,224);
+  background-image :    -moz-linear-gradient(rgb(240,240,240),rgb(224,224,224));
+  background-image :     -ms-linear-gradient(rgb(240,240,240),rgb(224,224,224));
+  background-image :      -o-linear-gradient(rgb(240,240,240),rgb(224,224,224));
+  background-image : -webkit-linear-gradient(rgb(240,240,240),rgb(224,224,224));
+  background-image :         linear-gradient(rgb(240,240,240),rgb(224,224,224));
+  vertical-align   : bottom;
+}
+
+input[type=checkbox]:not(old):checked + label > span,
+input[type=radio   ]:not(old):checked + label > span{
+  background-image :    -moz-linear-gradient(rgb(224,224,224),rgb(240,240,240));
+  background-image :     -ms-linear-gradient(rgb(224,224,224),rgb(240,240,240));
+  background-image :      -o-linear-gradient(rgb(224,224,224),rgb(240,240,240));
+  background-image : -webkit-linear-gradient(rgb(224,224,224),rgb(240,240,240));
+  background-image :         linear-gradient(rgb(224,224,224),rgb(240,240,240));
+}
+
+input[type=checkbox]:not(old):checked + label > span:before{
+  content     : '✓';
+  display     : block;
+  width       : 1.25em;
+  color       : rgb(0, 166, 90);
+  font-size   : 0.875em;
+  line-height : 1.15em;
+  text-align  : center;
+  text-shadow : 0 0 0.0214em rgb(115,153,77);
+  font-weight : bold;
+}
+
+input[type=radio]:not(old):checked +  label > span > span{
+  display          : block;
+  width            : 0.5em;
+  height           : 0.5em;
+  margin           : 0.125em;
+  border           : 0.0625em solid rgb(115,153,77);
+  border-radius    : 0.125em;
+  background       : rgb(153,204,102);
+  background-image :    -moz-linear-gradient(rgb(179,217,140),rgb(153,204,102));
+  background-image :     -ms-linear-gradient(rgb(179,217,140),rgb(153,204,102));
+  background-image :      -o-linear-gradient(rgb(179,217,140),rgb(153,204,102));
+  background-image : -webkit-linear-gradient(rgb(179,217,140),rgb(153,204,102));
+  background-image :         linear-gradient(rgb(179,217,140),rgb(153,204,102));
+}
+
+/* Check Box End */
+
+/* Select2 */
+
+.select2-container--default .select2-selection--multiple .select2-selection__rendered {
+  box-sizing: border-box;
+  list-style: outside none none;
+  margin: 0;
+  min-width: 160px;
+  padding: 0 5px;
+  width: 100%;
+  border-radius: 0;
+}
+.select2-container--default .select2-selection--multiple .select2-selection__choice {
+    border: 1px solid #aaa;
+    padding: 1px 10px;
+}
+.select2-container--default .select2-selection--multiple {    
+    border: 1px solid #d2d6de;
+    border-radius: 0;
+}
+.select2-selection__choice,.select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
+  background-color: #00a65a !important;
+  color: #ffffff !important;
+}
+
+.select2-container--default.select2-container--focus .select2-selection--multiple {
+    border-color: #00a65a;
+    box-shadow: none;
+    outline: 0 none;
+}
+
+/* Select2 End */
+
+/* my-menu */
+.my-menu .treeview-menu > li > a {
+    padding-left: 35px;
+}
+.my-menu .treeview-menu > li .treeview-menu > li > a {
+    padding-left: 30px;
+}
+/* my-menu end */
+
+/*.user-box{background:transparent;border-top:0px solid #d2d6de;box-shadow:none} /*
+.user-box-footer{border-top-left-radius:0;border-top-right-radius:0;border-bottom-right-radius:3px;border-bottom-left-radius:3px;border-top:1px solid #f4f4f4;background-color:transparent;}*/
+.user-box{margin-bottom: 0;min-height: 549px;}
+.content-header {
+    background-color: #fff !important;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #d2d6de;
+}
+.box-header.with-border {
+    border-bottom: none;
+}
+.box-footer {    
+    border-top: none;
+}
+.textcenter{
+  text-align: center;
+}
+.hor-align{
+  margin:0 auto;
+}
+.ver-align{
+  vertical-align: middle!important;
+}
+.box-footer #morelink{
+  margin-bottom: 8px;
+}
+.pagination{
+   margin: 0 auto;
+}
+.pagination > li > span.current {
+    background: #ecf0f5 none repeat scroll 0 0;
+    color: #666;
+}
+.pagination > li > span.disabled {    
+    display:none;
+}
+.msg{
+  margin: 10px;
+}
+
+.catimg{  
+    height: auto;
+    width:100%;
+}
+.imgviewdiv{
+  max-width: 60px;
+  margin: 0 auto;
+}
+.mydatatable{
+  width: 100%!important;
+}
+
+.mydatatable > thead {
+  background-color:#00a65a;
+}
+.mydatatable > thead > tr > th {
+  color:#ffffff;
+  vertical-align: middle;
+}
+.mydatatable > tbody > tr > td {
+  vertical-align: middle;
+  height: 45px;
+}
+
+.mydatatable >  thead .sorting:after {
+   /*content: url("/img/downarrow.png");*/
+   opacity: 0.5!important; 
+}
+
+.mydatatable >  thead .sorting_asc:after {
+   content: url("/img/downarrow.png"); /* sort-by-attributes */
+   opacity: 1!important;   
+}
+.mydatatable >  thead .sorting_desc:after {
+   content: url("/img/uparrow.png"); /* sort-by-attributes-alt */
+   opacity: 1!important;  
+}
+
+.mydatatable > thead > tr > th:first-child{
+  text-align: center;
+  padding-right: 8px;
+}
+.mydatatable > thead > tr > th:nth-child(2) {
+  text-align: center;
+  /*padding-right: 8px;*/
+}
+
+.mydatatable > thead > tr > th:first-child >button {
+  margin-left: 5px;
+}
+.mydatatable > tbody > tr > td:first-child, .mydatatable > tbody > tr > td:nth-child(2) {
+  text-align: center;
+}
+
+.dataTables_wrapper .row{
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.dataTables_filter > select {
+  margin-right: 5px;
+  width: 125px !important;
+  display: inline-block;
+}   
+
+.dataTables_filter > select:last-of-type {
+  margin-right: 5px;  
+} 
+
+.displaymb{
+  margin-bottom: 25px;
+}
+.displaymb > div > div > h4 {
+  text-align: center;margin-top: 0px;
+}
+
+.fright{
+  float:right;
+}
+.login-logo, .register-logo {    
+    margin-bottom: 0px;    
+}
+
+.login-box, .register-box {
+    margin: 12% auto;
+}
+.logerror{
+  text-align: center;
+  padding: 10px;
+  color: red;
+}
+.errorclass{
+  color: red;
+}
+.checkbox label{
+  padding-left: 2%;
+}
+.defaultrow
+{
+  background-color:#eee;
+}
+.input-group-addon{
+  font-size: 14px;
+    padding: 6px 6px;
+}
+.modal {
+ overflow-y: auto;
+ }
+.modal-open {
+overflow: auto;
+}
+.modal-open[style] {
+padding-right: 0px !important;
+}
+
+.btn-right-spacing 
+{
+  margin-right: 10px;
+}
+.mybuttn{
+  border-color: #ddd;
+}
+.mybuttn:hover, .mybuttn:active, .mybuttn.hover {
+    background-color: #e7e7e7;
+}
+#deleteTriger{
+  margin-right:15px;
+}
+
+
+.pad-right0{padding-right: 0px;}
+.pad-left0{padding-left: 0px;}
+.pad-top0{padding-top: 0px;}
+.pad-top10{padding-top: 10px;}
+.pad-top20{padding-top: 20px;}
+.pad-bottom0{padding-bottom: 0px;}
+.pad-bottom10{padding-bottom: 10px;}
+.pad-bottom20{padding-bottom: 20px;}
+.mar-bottom0{margin-bottom: 0px;}
+.mar-bottom10{margin-bottom: 10px;}
+.mar-bottom20{margin-bottom: 20px;}
+.mar-bottom30{margin-bottom: 30px;}
+
+
+
