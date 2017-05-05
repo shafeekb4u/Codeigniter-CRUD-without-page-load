@@ -1,20 +1,17 @@
-# health-heal-assignment
-assignment done for health heal
-Hi team, The assignment given to me is completed
-
-Its done in codeigniter framework
+# Codeigniter-CRUD-without-page-load
 
 How to install
 --------------
-1. Unzip pack and put it in server public folder
-2. edit baseurl in config file inside kuwait_university folder as folder url
-3. import database found inside unzip folder as per given in database.php inside kuwait_university folder
+1. unzip pack and put it in server public folder
+2. edit baseurl in config file inside crud_application/config folder as base url
+3. import database[crud_db.sql] found inside
+4. configure database.php inside crud_application/config folder
 
 To run 
 
 goto url/administrator
 
-username = shafeek/shafeek@redwebdesign.in
+username = shafeek/shafeek@sampledomain.in
 password = shafeekb4u
 it will go to employee management area
 
